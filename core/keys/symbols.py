@@ -85,9 +85,9 @@ symbols = [
     Symbol("}", None, ["R brace", "right brace","R curly bracket", "right curly bracket"]),
     Symbol("<", None, ["angle", "L Angle", "left angle", "less than"]),
     Symbol(">", None, ["rangle", "R angle", "right angle", "greater than"]),
-    Symbol("^", None, ["caret"]),
-    Symbol("|", None, ["pipe"]),
-    Symbol("'", None, ["quote", "apostrophe"]),
+    Symbol("^", None, ["caret sign"]),
+    Symbol("|", None, ["pipe sign"]),
+    Symbol("'", None, ["quote sign", "apostrophe"]),
     Symbol('"', None, ["dub quote", "double quote"]),
 ]
 
