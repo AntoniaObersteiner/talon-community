@@ -1,5 +1,5 @@
 <user.letter>: key(letter)
-(ship | uppercase) <user.letters> [(lowercase | sunk)]:
+uppercase <user.letters> [lowercase]:
     user.insert_formatted(letters, "ALL_CAPS")
 <user.symbol_key>: key(symbol_key)
 spike <user.symbol_key>: user.end_line_with_symbol_and_start_line(symbol_key)
