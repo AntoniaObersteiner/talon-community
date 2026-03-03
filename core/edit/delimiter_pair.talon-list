@@ -13,11 +13,11 @@ round: ( )
 box: [ ]
 diamond: < >
 curly: { }
-twin: "' '"
-quad: '" "'
-skis: ` `
+twinning: "' '"
+quadruplex: '" "'
+skiing: ` `
 percentages: % %
-pad: space space
+padding: space space
 
 escaped quad: '\\" \\"'
 escaped twin:  "\\' \\'"
