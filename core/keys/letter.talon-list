@@ -6,7 +6,7 @@ air: a
 bat: b
 cap: c
 drum: d
-each: e
+# each: e
 earl: e
 fine: f
 gust: g
