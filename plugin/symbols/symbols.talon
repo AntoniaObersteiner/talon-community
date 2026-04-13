@@ -7,6 +7,10 @@ ellipsis: "..."
 (comma and | spamma): ", "
 arrow: "->"
 dub arrow: "=>"
+unicode arrow right | unicode arrow: "→"
+unicode arrow left: "←"
+unicode arrow up: "↑"
+unicode arrow down: "↓"
 
 # Insert delimiter pairs
 <user.delimiter_pair>: user.delimiter_pair_insert(delimiter_pair)
