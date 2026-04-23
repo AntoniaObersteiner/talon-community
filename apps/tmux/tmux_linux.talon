@@ -6,48 +6,34 @@ mux: "tmux "
 #session management
 mux new session: insert("tmux new ")
 mux sessions:
-    key(ctrl-q)
-    key(s)
+    user.tmux_keybind("s")
 mux name session:
-    key(ctrl-q)
-    key($)
+    user.tmux_keybind("$")
 mux kill session: insert("tmux kill-session -t ")
 #window management
 mux new window:
-    key(ctrl-q)
-    key(c)
+    user.tmux_keybind("c")
 mux window <number>:
-    key(ctrl-q)
-    key('{number}')
+    user.tmux_keybind("{number}")
 mux previous window:
-    key(ctrl-q)
-    key(p)
+    user.tmux_keybind("p")
 mux next window:
-    key(ctrl-q)
-    key(n)
+    user.tmux_keybind("n")
 mux rename window:
-    key(ctrl-q)
-    key(,)
+    user.tmux_keybind(",")
 mux close window:
-    key(ctrl-q)
-    key(&)
+    user.tmux_keybind("&")
 #pane management
 mux split horizontal:
-    key(ctrl-q)
-    key(%)
+    user.tmux_keybind("%")
 mux split vertical:
-    key(ctrl-q)
-    key(")
+    user.tmux_keybind("\"")
 mux next pane:
-    key(ctrl-q)
-    key(o)
+    user.tmux_keybind("o")
 mux move <user.arrow_key>:
-    key(ctrl-q)
-    key(arrow_key)
+    user.tmux_keybind(arrow_key)
 mux close pane:
-    key(ctrl-q)
-    key(x)
+    user.tmux_keybind("x")
 #Say a number right after this command, to switch to pane
 mux pane numbers:
-    key(ctrl-q)
-    key(q)
+    user.tmux_keybind("q")

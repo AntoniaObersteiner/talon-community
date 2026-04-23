@@ -10,7 +10,7 @@ and tag: user.tmux
 mod.setting(
     "tmux_prefix_key",
     type=str,
-    default="ctrl-b",
+    default="ctrl-q",
     desc="The key used to prefix all tmux commands",
 )
 
