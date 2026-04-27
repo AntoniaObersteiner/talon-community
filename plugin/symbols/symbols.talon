@@ -11,6 +11,9 @@ unicode arrow right | unicode arrow: "→"
 unicode arrow left: "←"
 unicode arrow up: "↑"
 unicode arrow down: "↓"
+unicode dot: "·"
+unicode times: "×"
+unicode dash: "–"
 
 # Insert delimiter pairs
 <user.delimiter_pair>: user.delimiter_pair_insert(delimiter_pair)
