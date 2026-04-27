@@ -4,35 +4,35 @@ tag: user.tmux
 mux: "tmux "
 
 #session management
-mux new session: insert("tmux new ")
+mux session new: insert("tmux new ")
 mux sessions:
     user.tmux_keybind("s")
-mux name session:
+mux session name:
     user.tmux_keybind("$")
-mux kill session: insert("tmux kill-session -t ")
+mux session kill: insert("tmux kill-session -t ")
 #window management
-mux new window:
+mux window new:
     user.tmux_keybind("c")
 mux window <number>:
     user.tmux_keybind("{number}")
-mux previous window:
+mux window previous:
     user.tmux_keybind("p")
-mux next window:
+mux window next:
     user.tmux_keybind("n")
-mux rename window:
+mux window rename:
     user.tmux_keybind(",")
-mux close window:
+mux window close:
     user.tmux_keybind("&")
 #pane management
 mux split horizontal:
     user.tmux_keybind("%")
 mux split vertical:
     user.tmux_keybind("\"")
-mux next pane:
+mux pane next:
     user.tmux_keybind("o")
 mux move <user.arrow_key>:
     user.tmux_keybind(arrow_key)
-mux close pane:
+mux pane close:
     user.tmux_keybind("x")
 #Say a number right after this command, to switch to pane
 mux pane numbers:
