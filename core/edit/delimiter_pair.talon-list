@@ -17,6 +17,10 @@ twinning: "' '"
 quadruplex: '" "'
 skiing: ` `
 percentages: % %
+absolute: | |
+unicode quotes: “ ”
+german quotes: „ “
+unicode single quotes: ‘ ’
 padding: space space
 
 escaped quad: '\\" \\"'

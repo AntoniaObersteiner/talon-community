@@ -4,6 +4,19 @@ from talon import Module
 
 mod = Module()
 
+@mod.capture(
+    rule="date <number_small> <number_small>"
+)
+def date_two_numbers(m) -> str:
+    """Capture two number_small and return a date"""
+    return f"{m[1]:02}.{m[2]:02}."
+
+@mod.capture(
+    rule="time <number_small> <number_small>"
+)
+def time_two_numbers(m) -> str:
+    """Capture two number_small and return a time"""
+    return f"{m[1]:02}:{m[2]:02}"
 
 @mod.action_class
 class Actions:

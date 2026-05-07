@@ -37,3 +37,7 @@ mux pane close:
 #Say a number right after this command, to switch to pane
 mux pane numbers:
     user.tmux_keybind("q")
+mux scroll: user.tmux_keybind("[")
+mux select: key(ctrl-space)
+mux take: key(ctrl-w)
+mux paste: user.tmux_keybind("]")

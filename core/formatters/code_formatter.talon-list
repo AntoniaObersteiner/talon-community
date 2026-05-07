@@ -1,7 +1,8 @@
 list: user.code_formatter
 -
 all cap: ALL_CAPS
-all down: ALL_LOWERCASE
+# caused 'all down that' to be heard instead of 'undo that:'
+#all down: ALL_LOWERCASE
 camel: PRIVATE_CAMEL_CASE
 dotted: DOT_SEPARATED
 list: COMMA_SEPARATED
