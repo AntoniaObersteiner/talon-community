@@ -1,7 +1,6 @@
 os: linux
 tag: user.tmux
 -
-mux: "tmux "
 
 #session management
 mux session new: insert("tmux new ")

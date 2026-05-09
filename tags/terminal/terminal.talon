@@ -43,7 +43,6 @@ hash top [<user.text>]: insert('htop ')
 bee top [<user.text>]: insert('btop ')
 make directory [<user.text>]: insert('mkdir ')
 secure shell [<user.text>]: insert('ssh ')
-# tee mux [<user.text>]: insert('tmux ')
 
 accept this: insert('y\n')
 no accept: insert('n\n')
