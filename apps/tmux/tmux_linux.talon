@@ -23,7 +23,7 @@ mux window rename:
 mux window close:
     user.tmux_keybind("&")
 #pane management
-mux split horizontal:
+mux split [horizontal]:
     user.tmux_keybind("%")
 mux split vertical:
     user.tmux_keybind("\"")

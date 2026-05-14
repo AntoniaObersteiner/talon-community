@@ -38,11 +38,17 @@ run last: user.terminal_run_last()
 rerun [<user.text>]: user.terminal_rerun_search(text or "")
 rerun search: user.terminal_rerun_search("")
 kill all: user.terminal_kill_all()
+record now:
+    key(enter)
+    speech.disable()
 
 hash top [<user.text>]: insert('htop ')
 bee top [<user.text>]: insert('btop ')
 make directory [<user.text>]: insert('mkdir ')
 secure shell [<user.text>]: insert('ssh ')
+made player: insert('mplayer ')
+arson: insert('ars ')
+ardent: insert('ard ')
 
 accept this: insert('y\n')
 no accept: insert('n\n')
