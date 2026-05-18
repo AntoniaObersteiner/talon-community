@@ -205,6 +205,8 @@ pull request: user.vscode("pr.create")
 # action: https://code.visualstudio.com/api/references/when-clause-contexts
 change next: key(alt-f5)
 change last: key(shift-alt-f5)
+accept current: user.vscode("merge-conflict.accept.current")
+accept incoming: user.vscode("merge-conflict.accept.incoming")
 
 # Testing
 test run: user.vscode("testing.runAtCursor")
