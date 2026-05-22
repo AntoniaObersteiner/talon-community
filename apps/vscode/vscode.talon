@@ -143,8 +143,8 @@ go marks:
     user.deprecate_command("2023-06-06", "go marks", "bar marks")
     user.vscode("workbench.view.extension.bookmarks")
 toggle mark: user.vscode("bookmarks.toggle")
-go next mark: user.vscode("bookmarks.jumpToNext")
-go last mark: user.vscode("bookmarks.jumpToPrevious")
+go mark next: user.vscode("bookmarks.jumpToNext")
+go mark last: user.vscode("bookmarks.jumpToPrevious")
 
 close other tabs: user.vscode("workbench.action.closeOtherEditors")
 close all tabs: user.vscode("workbench.action.closeAllEditors")
@@ -292,3 +292,6 @@ cell run: user.vscode("notebook.cell.execute")
 
 install local: user.vscode("workbench.extensions.action.installVSIX")
 preview markdown: user.vscode("markdown.showPreview")
+
+make comment: key(ctrl-/)
+reopen tab: key(ctrl-shift-t)

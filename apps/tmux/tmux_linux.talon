@@ -33,6 +33,8 @@ mux move <user.arrow_key>:
     user.tmux_keybind(arrow_key)
 mux pane close:
     user.tmux_keybind("x")
+mux zoom:
+    user.tmux_keybind("z")
 #Say a number right after this command, to switch to pane
 mux pane numbers:
     user.tmux_keybind("q")
