@@ -16,6 +16,7 @@ git stash [push] [<user.git_arguments>] message [<user.prose>]:
 # Optimistic execution for frequently used commands that are harmless (don't
 # change repository or index state).
 git status$: "git status\n"
+git push$: "git push\n"
 git red red: "grr"
 git red sun: "grs"
 git restore staged$: "git restore --staged\n"
